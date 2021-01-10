@@ -1,0 +1,14 @@
+create database phonebook;
+
+use phonebook;
+
+create table contact (
+    name varchar(100),
+    phone long
+);
+
+insert into contact values("smith","7843345623");
+insert into contact values("raj","8237284143");
+insert into contact values("abhijeet","9004869069");
+
+select * from contact;
